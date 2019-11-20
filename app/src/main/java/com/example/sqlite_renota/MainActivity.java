@@ -5,7 +5,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.example.CRUD_SQLITE_SIMON.R;
+import com.example.sqlite_renota.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import androidx.appcompat.app.AlertDialog;
@@ -170,7 +170,7 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_listaArticulos) {
-            Intent spinnerActivity = new Intent(MainActivity.this, consultaSpinner.class);
+            Intent spinnerActivity = new Intent(MainActivity.this, ConsultaSpinner.class);
             startActivity(spinnerActivity);
             return true;
 
